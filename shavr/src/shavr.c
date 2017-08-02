@@ -40,7 +40,7 @@
 uart_pty_t uart_pty;
 avr_t * avr = NULL;
 avr_vcd_t vcd_file;
-elf_firmware_t code = {0};
+elf_firmware_t code;// = {0};
 
 struct avr_flash {
 	char avr_flash_path[1024];

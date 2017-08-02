@@ -62,7 +62,7 @@ history_cmd_list_register(
 	list->count++;
 }
 
-const history_cmd_p
+history_cmd_p
 history_cmd_lookup(
 		history_cmd_list_p list,
 		const char * cmd_name,

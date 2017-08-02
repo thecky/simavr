@@ -44,7 +44,7 @@ history_cmd_list_register(
 		history_cmd_list_register(NULL, (const history_cmd_p)&(__cmd));\
 	}
 
-const history_cmd_p
+history_cmd_p
 history_cmd_lookup(
 		history_cmd_list_p list,
 		const char * cmd_name,

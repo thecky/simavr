@@ -89,5 +89,6 @@ sim_args_parse(
 	char *argv[],
 	sim_args_parse_t passthru)
 {
+	return 0;
 }
 
